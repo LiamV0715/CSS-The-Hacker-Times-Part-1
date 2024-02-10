@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto+Slab:wght@500&family=Source+Sans+Pro:wght@200;400;600&display=swap');
 * {
     margin: auto;
-    max-width: 700px;
-    padding: 15px;
+    max-width: 1300px;
+    padding: 10px;;
 }
 
 
@@ -25,7 +25,22 @@ body {
 .more {
     text-align: left;
     min-width: 40%;
-    height: 400px;
+    height: 200px;
+}
+
+.extra {
+    text-align: left;
+    min-width: 100px;
+    height: 200px;
+
+}
+
+.extra-articles {
+    min-width: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 700px;
 }
 
 h1 {
@@ -45,7 +60,8 @@ p {
 
 .newspaper-container {
     background-color: white;
-    width: 700px;
+    width: 900px;
+    height: 1000px;
     align-items: center;
     border: round;
     border-radius: 25px;
@@ -56,10 +72,19 @@ p {
 ul {
     list-style-type: none;
     display: inline-block;
+    
+}
+
+nav {
+    position: sticky;
+    top: 0px;
+    background-color: white;
 }
 
 .nav {
     display: inline-block;
+    position: sticky;
+    top: 0px;
 }
 
 .date {
@@ -67,7 +92,7 @@ ul {
 }
 
 li a{
-    padding: 15px;
+    padding: 10px;
     color: #777;
     border-top: #777 1px;
     border-bottom: #777 1px;
@@ -80,10 +105,16 @@ li a{
     border-style: groove 1px;
     border-left: hidden;
     border-right: hidden;
+    background-color: white;
 }
 
 h5 {
     color: #dd3232;
     font-size: 20px;
     text-align: left;
+}
+
+#smallpic {
+    max-width: 30px;
+    max-height: 30px;
 }
